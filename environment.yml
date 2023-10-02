@@ -1,15 +1,103 @@
-name: detSeiz
+name: base
 channels:
   - defaults
 dependencies:
+  - boltons=23.0.0=py38haa95532_0
+  - brotlipy=0.7.0=py38h2bbff1b_1003
+  - bzip2=1.0.8=he774522_0
   - ca-certificates=2023.08.22=haa95532_0
+  - certifi=2023.7.22=py38haa95532_0
+  - cffi=1.15.1=py38h2bbff1b_3
+  - charset-normalizer=2.0.4=pyhd3eb1b0_0
+  - colorama=0.4.6=py38haa95532_0
+  - conda=23.7.4=py38haa95532_0
+  - conda-libmamba-solver=23.7.0=py38haa95532_0
+  - conda-package-handling=2.2.0=py38haa95532_0
+  - conda-package-streaming=0.9.0=py38haa95532_0
+  - cryptography=41.0.3=py38h89fc84f_0
+  - fmt=9.1.0=h6d14046_0
+  - idna=3.4=py38haa95532_0
+  - jsonpatch=1.32=pyhd3eb1b0_0
+  - jsonpointer=2.1=pyhd3eb1b0_0
+  - libarchive=3.6.2=hb62f4d4_2
+  - libcurl=8.1.1=h86230a5_0
   - libffi=3.4.4=hd77b12b_0
+  - libiconv=1.16=h2bbff1b_2
+  - libmamba=1.5.1=hcd6fe79_0
+  - libmambapy=1.5.1=py38h77c03ed_0
+  - libsolv=0.7.24=h23ce68f_0
+  - libssh2=1.10.0=he2ea4bf_2
+  - libxml2=2.10.4=h0ad7f3c_1
+  - lz4-c=1.9.4=h2bbff1b_0
+  - menuinst=1.4.19=py38h59b6b97_0
   - openssl=3.0.11=h2bbff1b_2
+  - packaging=23.1=py38haa95532_0
+  - pcre2=10.42=h0ff8eda_0
   - pip=23.2.1=py38haa95532_0
+  - pluggy=1.0.0=py38haa95532_1
+  - pybind11-abi=4=hd3eb1b0_1
+  - pycosat=0.6.4=py38h2bbff1b_0
+  - pycparser=2.21=pyhd3eb1b0_0
+  - pyopenssl=23.2.0=py38haa95532_0
+  - pysocks=1.7.1=py38haa95532_0
   - python=3.8.18=h1aa4202_0
+  - reproc=14.2.4=hd77b12b_1
+  - reproc-cpp=14.2.4=hd77b12b_1
+  - requests=2.31.0=py38haa95532_0
+  - ruamel.yaml=0.17.21=py38h2bbff1b_0
+  - ruamel.yaml.clib=0.2.6=py38h2bbff1b_1
   - setuptools=68.0.0=py38haa95532_0
   - sqlite=3.41.2=h2bbff1b_0
+  - toolz=0.12.0=py38haa95532_0
+  - tqdm=4.65.0=py38hd4e2768_0
+  - urllib3=1.26.16=py38haa95532_0
   - vc=14.2=h21ff451_1
   - vs2015_runtime=14.27.29016=h5e58377_2
   - wheel=0.41.2=py38haa95532_0
+  - win_inet_pton=1.1.0=py38haa95532_0
+  - xz=5.4.2=h8cc25b3_0
+  - yaml-cpp=0.7.0=hd77b12b_1
+  - zlib=1.2.13=h8cc25b3_0
+  - zstandard=0.19.0=py38h2bbff1b_0
+  - zstd=1.5.5=hd43e919_0
+  - pip:
+      - asttokens==2.4.0
+      - backcall==0.2.0
+      - black==23.9.1
+      - click==8.1.7
+      - contourpy==1.1.1
+      - cycler==0.12.0
+      - decorator==5.1.1
+      - exceptiongroup==1.1.3
+      - executing==2.0.0
+      - fonttools==4.43.0
+      - importlib-resources==6.1.0
+      - iniconfig==2.0.0
+      - ipython==8.12.3
+      - jedi==0.19.1
+      - kiwisolver==1.4.5
+      - matplotlib==3.7.3
+      - matplotlib-inline==0.1.6
+      - mypy-extensions==1.0.0
+      - numpy==1.24.4
+      - parso==0.8.3
+      - pathspec==0.11.2
+      - pickleshare==0.7.5
+      - pillow==10.0.1
+      - platformdirs==3.10.0
+      - prompt-toolkit==3.0.39
+      - pure-eval==0.2.2
+      - pyabf==2.3.8
+      - pygments==2.16.1
+      - pyparsing==3.1.1
+      - pytest==7.4.2
+      - python-dateutil==2.8.2
+      - six==1.16.0
+      - stack-data==0.6.3
+      - tokenize-rt==5.2.0
+      - tomli==2.0.1
+      - traitlets==5.10.1
+      - typing-extensions==4.8.0
+      - wcwidth==0.2.8
+      - zipp==3.17.0
 prefix: C:\ProgramData\Anaconda3\envs\detSeiz
